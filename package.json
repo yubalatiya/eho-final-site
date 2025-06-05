@@ -2,9 +2,11 @@
   "name": "eho_landing_site",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yubalatiya/eho-final-site.git"
@@ -22,4 +24,4 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
-}
+
